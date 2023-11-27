@@ -1,2 +1,2 @@
 # PortfolioProjects
-A collections of my portfolio projects.
+This Repository contains all the works from my project portfolio.
