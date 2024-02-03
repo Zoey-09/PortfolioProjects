@@ -8,7 +8,7 @@ Skills used: Join, subquery, Aggregate Functions, Formatting Functions.
 
 */
 
-# Creating a master file for later data visualiztion
+# Creating a master file for later data visualization
 # Total orders
 # Total Sales
 # Total Items
