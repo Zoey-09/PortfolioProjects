@@ -1,7 +1,14 @@
-/*
-Covid 19 Data Exploation
+Tableau Dashboard:
 
-Skills used: Joins, CTE's, Temp Tables, Window Functions, Aggregate Funtions, Creating Views, 
+1. COVID-19 Cases & Deaths: https://public.tableau.com/app/profile/tinajcyeh/viz/CovidStudy-2_17068703413070/Dashboard1-CasesDeaths?publish=yes
+2. Global COVID-19 Vaccinations: https://public.tableau.com/app/profile/tinajcyeh/viz/CovidStudy-1/Dashboard1-Vaccination?publish=yes
+
+
+
+/*
+Covid 19 Data Exploration
+
+Skills used: Joins, CTE's, Temp Tables, Window Functions, Aggregate Functions, Creating Views, 
 
 */
 
@@ -33,7 +40,7 @@ FROM coviddeaths
 ORDER BY location, dates;
 
 
-# Countries with Highest infection rate compared to population
+# Countries with the Highest infection rate compared to the population
 SELECT 
 	location, 
     population, 
@@ -44,7 +51,7 @@ GROUP BY location, population
 ORDER BY population_infection_rate DESC;
 
 
-# Countries with Highest Death Count per population
+# Countries with the Highest Death Count per population
 SELECT 
 	location, 
     MAX(total_deaths) AS total_deaths_count    
@@ -176,7 +183,7 @@ ORDER BY location, years;
 
 
 
--- Creating View to store data for visulizations
+-- Creating a View to store data for visualizations
 CREATE VIEW PeopleVaccinatedPercentage AS
 SELECT
 	cd.continent AS continent,
