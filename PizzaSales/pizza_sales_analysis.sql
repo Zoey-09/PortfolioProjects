@@ -1,4 +1,6 @@
-Tableau Dashboard: https://public.tableau.com/app/profile/tinajcyeh/viz/PizzaSales_16998013231940/Dashboard2
+Tableau Interactive Dashboard: https://public.tableau.com/app/profile/tinajcyeh/viz/PizzaSales_16998013231940/Dashboard2
+
+	
 /*
 Pizza Sales Data Analysis
 
