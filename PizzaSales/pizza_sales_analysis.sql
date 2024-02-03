@@ -1,4 +1,4 @@
-
+Tableau Dashboard: https://public.tableau.com/app/profile/tinajcyeh/viz/PizzaSales_16998013231940/Dashboard2
 /*
 Pizza Sales Data Analysis
 
@@ -6,7 +6,7 @@ Skills used: Join, subquery, Aggregate Functions, Formatting Functions.
 
 */
 
-# Creating a master file for later data visualiztio
+# Creating a master file for later data visualiztion
 # Total orders
 # Total Sales
 # Total Items
